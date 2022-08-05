@@ -4,7 +4,9 @@ const Apicard = ({ title, description, img, url }) => {
   return (
     <div className="Card bg-[#fafafa] shadow-md rounded flex flex-col px-[15px] py-[30px]">
       <div className="cardHeader flex">
-        <img className="w-[70px] rounded-[50%] shadow-sm" alt="Hexullu APIs" src={img} />
+        <picture>
+          <img className="w-[70px] rounded-[50%] shadow-sm" alt="Hexullu APIs" src={img} />
+        </picture>
       </div>
       <div className="cardBody flex flex-col py-[20px]">
         <h3 className="text-xl font-bold text-[#009688] mb-[10px]">{title}</h3>

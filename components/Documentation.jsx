@@ -77,7 +77,7 @@ const Documentation = () => {
           <div className="Documentation w-full  mt-[50px] bg-[#fff] shadow p-[30px]">
             <h2 className="text-2xl text-[#333333] font-[500] mb-[10px]">Subscription Plans & Pricing</h2>
             <h3 className="text-md text-[#333333] font-[500] mb-[10px]">
-              Here's how to subscribe and pay for your API calls on RapidAPI.
+              Here is how to subscribe and pay for your API calls on RapidAPI.
             </h3>
             <h4 className="text-xl text-[#333333] font-[500] mb-[10px]">Types of APIs</h4>
             <p className="text-md text-[#666666] mb-[10px]">
