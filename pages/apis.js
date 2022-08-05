@@ -6,7 +6,7 @@ import ApiCard from "../components/ApiCard";
 import { ThreeDots } from "react-loader-spinner";
 import Head from "next/head";
 
-const apis = () => {
+const Apis = () => {
   const [loader, setLoader] = useState(true);
   const url = "https://hexullu-rapid-scraper.herokuapp.com/hexullu";
   const [listOfApis, setListOfApis] = useState([]);
@@ -55,4 +55,4 @@ const apis = () => {
   );
 };
 
-export default apis;
+export default Apis;
