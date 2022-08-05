@@ -11,7 +11,12 @@ const Apicard = ({ title, description, img, url }) => {
         <p className="text-[#333333]">{description}</p>
       </div>
       <div className="cardFooter">
-        <a className="px-[20px] py-[8px] bg-[#009688] text-[#fff] rounded hover:shadow-md" target="_blank" href={url}>
+        <a
+          className="px-[20px] py-[8px] bg-[#009688] text-[#fff] rounded hover:shadow-md"
+          target="_blank"
+          rel="noreferrer"
+          href={url}
+        >
           Get Started
         </a>
       </div>

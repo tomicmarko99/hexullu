@@ -24,15 +24,19 @@ const Documentation = () => {
             <p className="mt-[10px] text-md text-[#666666]">
               We currently provide our services via{" "}
               <span className="text-[#009688] font-[500]">
-                <Link target="_blank" href="https://rapidapi.com/hub">
-                  <a target="_blank">RapidAPI</a>
+                <Link href="https://rapidapi.com/hub">
+                  <a target="_blank" rel="noreferrer">
+                    RapidAPI
+                  </a>
                 </Link>
               </span>{" "}
               only. You need to register an account on the market platform as developer or consumer to start using our
               APIs. Please have a look at{" "}
               <span className="text-[#009688] font-[500]">
-                <Link target="_blank" href="https://docs.rapidapi.com/docs/consumer-quick-start-guide">
-                  <a target="_blank">Creating a project</a>
+                <Link href="https://docs.rapidapi.com/docs/consumer-quick-start-guide">
+                  <a target="_blank" rel="noreferrer">
+                    Creating a project
+                  </a>
                 </Link>
               </span>{" "}
               to get started.
@@ -47,8 +51,10 @@ const Documentation = () => {
               RapidAPI uses token key to allow access to all APIs on the platform. You need to generate a token key for
               a new app in your developer control panel of RapidAPI at{" "}
               <span className="text-[#009688] font-[500]">
-                <Link target="_blank" href="https://rapidapi.com/developer">
-                  <a target="_blank">RapidAPI-developer</a>
+                <Link href="https://rapidapi.com/developer">
+                  <a target="_blank" rel="noreferrer">
+                    RapidAPI-developer
+                  </a>
                 </Link>
               </span>
               .
