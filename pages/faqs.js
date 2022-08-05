@@ -30,8 +30,8 @@ const faqs = () => {
             Frequently asked questions about Hexullu
           </h2>
           <div className="w-full md:w-[720px] mt-[50px] shadow">
-            {faqsList.map((faqs, idx) => {
-              return <Accordion question={faqs.question} answer={faqs.answer} />;
+            {faqsList.map((faqs) => {
+              return <Accordion key={faqs.id} question={faqs.question} answer={faqs.answer} />;
             })}
           </div>
         </div>

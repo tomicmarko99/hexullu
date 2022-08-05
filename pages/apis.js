@@ -45,7 +45,9 @@ const Apis = () => {
 
           <div className="ApisGrid grid grid-cols-1 md:grid-cols-4 gap-[20px]  gap-[50px] w-full  mt-[50px]">
             {listOfApis.map((Api) => {
-              return <ApiCard title={Api.title} description={Api.description} img={Api.img} url={Api.url} />;
+              return (
+                <ApiCard key={Api.title} title={Api.title} description={Api.description} img={Api.img} url={Api.url} />
+              );
             })}
           </div>
         </div>
