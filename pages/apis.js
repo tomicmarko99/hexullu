@@ -44,8 +44,8 @@ const apis = () => {
           {loader && <ThreeDots color="#009688" height={80} width={80} timeout={30} />}
 
           <div className="ApisGrid grid grid-cols-1 md:grid-cols-4 gap-[20px]  gap-[50px] w-full  mt-[50px]">
-            {listOfApis.map((api) => {
-              return <ApiCard title={api.title} description={api.description} img={api.img} url={api.url} />;
+            {listOfApis.map((Api) => {
+              return <ApiCard title={Api.title} description={Api.description} img={Api.img} url={Api.url} />;
             })}
           </div>
         </div>
