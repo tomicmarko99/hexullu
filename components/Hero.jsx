@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Rocket from "../public/Rocket-research.svg";
 import Slide from "react-reveal/Slide";
+import CountUp from "react-countup";
 
 const Hero = () => {
   return (
@@ -37,7 +38,10 @@ const Hero = () => {
           <Slide bottom duration={1000}>
             <div className="flex flex-col shadow-md p-3 rounded">
               <h3 className="text-4xl font-bold">
-                <span className="text-[#009688]">40</span>+
+                <span className="text-[#009688]">
+                  <CountUp start={0} end={40} duration={1} delay={1} />
+                </span>
+                +
               </h3>
               <p className="font-medium">
                 APIs for cryptocurrency, finance, marketing, trading, and other related topics
@@ -47,7 +51,10 @@ const Hero = () => {
           <Slide bottom duration={1200}>
             <div className="flex flex-col shadow-md p-3 rounded">
               <h3 className="text-4xl font-bold">
-                <span className="text-[#009688]">300</span>M+
+                <span className="text-[#009688]">
+                  <CountUp start={0} end={300} duration={1} delay={1} />
+                </span>
+                M+
               </h3>
               <p className="font-medium">API requests performed per day, peaking 200K per minute</p>
             </div>
@@ -55,7 +62,10 @@ const Hero = () => {
           <Slide bottom duration={1400}>
             <div className="flex flex-col shadow-md p-3 rounded">
               <h3 className="text-4xl font-bold">
-                <span className="text-[#009688]">95</span>+
+                <span className="text-[#009688]">
+                  <CountUp start={0} end={95} duration={1} delay={1} />
+                </span>
+                +
               </h3>
               <p className="font-medium">Countries from which the data comes</p>
             </div>
@@ -63,7 +73,10 @@ const Hero = () => {
           <Slide bottom duration={1600}>
             <div className="flex flex-col shadow-md p-3 rounded">
               <h3 className="text-4xl font-bold">
-                <span className="text-[#009688]">2</span>K
+                <span className="text-[#009688]">
+                  <CountUp start={0} end={2} duration={1} delay={1} />
+                </span>
+                K
               </h3>
               <p className="font-medium">
                 Already scraped Websites including criptocurrency trading websites and many more
