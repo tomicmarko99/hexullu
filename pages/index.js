@@ -21,6 +21,9 @@ export default function Home() {
           name="description"
           content="Hexullu provides real-time APIs that simplify and speed up development. Our special scrapers firmly track data changes on targeted feeds and update API data in real-time."
         />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
       </Head>
       <Navbar />
       <Hero />
