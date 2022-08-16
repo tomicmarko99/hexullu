@@ -32,9 +32,9 @@ const Apis = () => {
           name="description"
           content="Hexullu provides real-time APIs that simplify and speed up development. Our special scrapers firmly track data changes on targeted feeds and update API data in real-time."
         />
-        <meta http-equiv="cache-control" content="no-cache" />
-        <meta http-equiv="expires" content="0" />
-        <meta http-equiv="pragma" content="no-cache" />
+        <meta httpEquiv="cache-control" content="no-cache" />
+        <meta httpEquiv="expires" content="0" />
+        <meta httpEquiv="pragma" content="no-cache" />
       </Head>
       <Navbar />
       <div className="Apis bg-[url('https://i.ibb.co/DL4Ft4D/hero-background.png')] bg-center bg-no-repeat bg-cover w-full bg-[#fff] flex justify-center items-center">
