@@ -8,7 +8,7 @@ import Head from "next/head";
 
 const Apis = () => {
   const [loader, setLoader] = useState(true);
-  const url = "https://hexullu-rapid-scraper.herokuapp.com/hexullu";
+  const url = "https://fancy-polo-shirt-deer.cyclic.app/hexullu/";
   const [listOfApis, setListOfApis] = useState([]);
 
   useEffect(() => {
