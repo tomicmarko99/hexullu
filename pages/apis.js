@@ -8,7 +8,7 @@ import Head from "next/head";
 
 const Apis = () => {
   const [loader, setLoader] = useState(true);
-  const url = "https://green-factual-rain.glitch.me/hexullu";
+  const url = "https://hexullu-apis-api.vercel.app/hexullu";
   const [listOfApis, setListOfApis] = useState([]);
 
   useEffect(() => {
